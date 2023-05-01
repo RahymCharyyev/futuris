@@ -8,6 +8,7 @@
   --light: 300;
   --regular: 400;
   --medium: 500;
+  --test: 550;
   --semi-bold: 600;
   --bold: 700;
   --extra-bold: 800;
@@ -44,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 175px;
 }
 
 .header__nav {
@@ -71,7 +72,7 @@ body {
 }
 
 .header__texts {
-  padding-bottom: 45px;
+  padding: 35px 0 45px 0;
 }
 
 .header__title {
@@ -109,12 +110,11 @@ body {
 
 .about__text-one {
   width: 31rem;
-  padding-top: 55px;
 }
 
 .about__text-two {
   width: 30rem;
-  padding-bottom: 95px;
+  padding-bottom: 65px;
   align-self: flex-end;
 }
 
@@ -180,7 +180,7 @@ body {
   align-items: flex-start;
   position: absolute;
   gap: 15px;
-  top: 52.5vh;
+  top: 52vh;
   left: 0;
   transform: translateY(-50%);
   z-index: 10;
@@ -234,7 +234,7 @@ body {
   font-weight: var(--medium);
   text-align: center;
   padding-top: 65px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 
 .slider {
@@ -244,11 +244,12 @@ body {
 }
 
 .slider img {
-  max-width: 100%;
+  max-width: 360px;
   height: auto;
 }
 
 .slide-desc {
+  max-width: 360px;
   text-align: left;
 }
 
@@ -331,9 +332,9 @@ p {
   gap: 60px;
 }
 
-.vision__passion h3,
-.vision__collaboration h3,
-.vision__integrity h3 {
+.vision__passion h2,
+.vision__collaboration h2,
+.vision__integrity h2 {
   font-size: 32px;
   font-weight: var(--medium);
 }
@@ -341,9 +342,21 @@ p {
 .vision__passion p,
 .vision__collaboration p,
 .vision__integrity p {
-  width: 21rem;
   font-size: 32px;
   font-weight: var(--light);
+  text-align: center;
+}
+
+.vision__passion {
+  width: 21rem;
+}
+
+.vision__collaboration {
+  width: 24rem;
+}
+
+.vision__integrity {
+  width: 22rem;
 }
 
 .customers {
@@ -365,13 +378,19 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  column-gap: 275px;
+  column-gap: 249px;
   row-gap: 6rem;
 }
 
-.customers__wrapper picture {
-  align-self: center;
+.customers__wrapper picture:not(#schlumberger):not(#kawasaki) {
+  align-self: flex-end;
   justify-self: center;
+}
+
+#schlumberger,
+#kawasaki {
+  justify-self: center;
+  align-self: center;
 }
 
 .footer {

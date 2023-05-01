@@ -1,17 +1,132 @@
 @media (max-width: 1655px) {
+  .header__nav-logo {
+    width: 162px;
+    height: 28px;
+  }
+
+  .header__texts {
+    padding: 25px 0 45px 0;
+  }
+
+  .header__title {
+    font-size: 60px;
+  }
+
+  .about__text-one {
+    width: 22rem;
+    font-size: 20px;
+  }
+
+  .about__text-two {
+    width: 21.2rem;
+    font-size: 20px;
+    padding-bottom: 105px;
+  }
+
+  .fieldsOfOperation__title,
+  .expertise__title,
+  .services__title {
+    font-size: 40px;
+  }
+
+  .fieldOfOperation__texts p {
+    font-size: 36px;
+  }
+
+  .expertise__texts p {
+    font-size: 30px;
+  }
+
+  .services__texts p {
+    font-size: 24px;
+  }
+
+  .fieldOfOperation__texts,
+  .expertise__texts {
+    gap: 45px;
+  }
+
+  .services__texts {
+    gap: 15px;
+    padding: 50px 0 50px 0;
+  }
+
+  .bottom__text {
+    font-size: 30px;
+  }
+
+  .slider img {
+    width: 100%;
+    max-width: 365px;
+  }
+
+  .slide-desc h3,
+  p {
+    font-size: 22px;
+  }
+
+  .project__buttons {
+    margin-top: 10px;
+  }
+
+  .project__buttons-next svg,
+  .project__buttons-prev svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .vision {
+    margin-top: 300px;
+  }
+
+  .vision__passion,
+  .vision__collaboration,
+  .vision__integrity {
+    gap: 40px;
+  }
+
+  .vision__passion p,
+  .vision__collaboration p,
+  .vision__integrity p {
+    font-size: 28px;
+  }
+
+  .vision__passion p {
+    width: 18rem;
+    align-self: center;
+  }
+
+  .vision__collaboration p {
+    width: 21rem;
+    align-self: center;
+  }
+
+  .vision__integrity p {
+    width: 21rem;
+    align-self: center;
+  }
+
+  .customers {
+    margin-top: 150px;
+  }
+
+  .customers__title {
+    margin-bottom: 100px;
+  }
+
   .customers__wrapper {
     gap: 5rem;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1380px) {
   .header {
     margin-bottom: 125px;
   }
 
   .header__nav-logo {
-    width: 154px;
-    height: 27px;
+    width: 126px;
+    height: 22px;
   }
 
   .header__nav-link {
@@ -19,28 +134,38 @@
   }
 
   .header__title {
-    font-size: 54px;
+    font-size: 48px;
   }
 
   .header__subtitle {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .header__texts {
+    padding: 25px 0 20px 0;
   }
 
   .about {
-    background-size: 80%;
-    margin-bottom: 0px;
+    background-size: 70%;
+    background-position: center 70%;
+    margin-bottom: 125px;
   }
 
   .about__text-one {
-    padding-top: 85px;
+    padding-top: 15px;
     width: 20rem;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .about__text-two {
-    padding-bottom: 120px;
+    padding-bottom: 12px;
     width: 20.3rem;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .vertical__slider-wrapper {
+    justify-content: flex-start;
+    gap: 25px;
   }
 
   .vertical__slider-container {
@@ -50,33 +175,46 @@
   .fieldsOfOperation__title,
   .expertise__title,
   .services__title {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .fieldOfOperation__texts p {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .expertise__texts p {
-    font-size: 28px;
-  }
-
-  .expertise__texts {
-    gap: 50px;
+    font-size: 25px;
   }
 
   .services__texts p {
     font-size: 20px;
   }
 
+  .expertise__texts {
+    gap: 25px;
+  }
+
+  .services__texts {
+    padding: 0;
+  }
+
   .bottom__text {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .custom-dots .dot {
+    width: 13px;
+    height: 13px;
   }
 
   .projects__title {
-    font-size: 36px;
+    font-size: 32px;
     padding-top: 45px;
     padding-bottom: 30px;
+  }
+
+  .projects {
+    height: 135vh;
   }
 
   .slider {
@@ -85,7 +223,11 @@
 
   .slide-desc h3,
   p {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .slide-desc p {
+    margin-top: 0.6rem;
   }
 
   .vision {
@@ -93,21 +235,21 @@
   }
 
   .vision_title {
-    font-size: 36px;
-    margin-bottom: 11rem;
+    font-size: 32px;
+    margin-bottom: 8rem;
   }
 
-  .vision__passion h3,
-  .vision__collaboration h3,
-  .vision__integrity h3 {
-    font-size: 28px;
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
+    font-size: 26px;
   }
 
   .vision__passion p,
   .vision__collaboration p,
   .vision__integrity p {
     width: 14rem;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .vision__passion img {
@@ -126,7 +268,7 @@
   }
 
   .customers__title {
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 115px;
   }
 
@@ -190,12 +332,13 @@
     height: 125px;
   }
 
-  .footer {
-    margin-top: 105px;
-  }
-
   .footer__logo {
     width: 128px;
+  }
+
+  .footer__contacts p,
+  .footer__rights p {
+    font-size: 22px;
   }
 
   .footer__rights {

@@ -4,13 +4,13 @@ $(document).ready(function () {
     dots: false,
     infinite: true,
     speed: 500,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     slidesToShow: 4,
     prevArrow: ".project__buttons-prev",
     nextArrow: ".project__buttons-next",
     responsive: [
       {
-        breakpoint: 1512,
+        breakpoint: 1600,
         settings: {
           arrows: false,
           slidesToShow: 3,
