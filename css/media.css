@@ -422,6 +422,10 @@
     font-size: 26px;
   }
 
+  .projects {
+    height: 100vh;
+  }
+
   .projects__title {
     font-size: 30px;
     padding-top: 30px;
@@ -453,7 +457,7 @@
 
   .vision_title {
     font-size: 30px;
-    margin-bottom: 95px;
+    margin-bottom: 130px;
   }
 
   .vision__passion,
