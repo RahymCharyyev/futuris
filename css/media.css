@@ -346,13 +346,53 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .header__nav {
+    height: 6rem;
+  }
+
+  .header__texts {
+    padding: 25px 0 40px 0;
+  }
+
+  .about {
+    background-size: 80%;
+  }
+
+  .about__text-one {
+    padding-top: 50px;
+    font-size: 18px;
+  }
+
+  .about__text-two {
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+
+  .projects {
+    height: 100vh;
+  }
+
+  .custom-dots {
+    top: 52svh;
+  }
+
+  .customers {
+    margin-top: 0;
+  }
+
+  .customers__wrapper {
+    gap: 7.2rem;
+  }
+}
+
 @media (max-width: 980px) {
   .header {
     margin-bottom: 90px;
   }
 
   .header__texts {
-    padding: 15px 0 15px 0;
+    padding: 15px 0 300px 0;
   }
 
   .header__title {
@@ -621,26 +661,6 @@
   .project__buttons {
     justify-content: center;
     margin-top: 0px;
-  }
-
-  .project__buttons-next svg:hover,
-  .project__buttons-prev svg:hover {
-    fill: none;
-  }
-
-  .project__buttons-next svg:hover path[stroke],
-  .project__buttons-prev svg:hover path[stroke] {
-    stroke: black;
-  }
-
-  .project__buttons-next svg:active,
-  .project__buttons-prev svg:active {
-    fill: black;
-  }
-
-  .project__buttons-next svg:active path[stroke],
-  .project__buttons-prev svg:active path[stroke] {
-    stroke: white;
   }
 
   .vision {

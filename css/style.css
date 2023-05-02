@@ -287,20 +287,18 @@ p {
 .project__buttons-next,
 .project__buttons-prev {
   cursor: pointer;
-  transition: all 0.5s ease;
+  /* transition: 0.3s; */
 }
 
-.project__buttons-next svg:hover,
-.project__buttons-prev svg:hover {
+/* .project__buttons-prev:hover,
+.project__buttons-next:hover {
   fill: black;
-  transition: all 0.5s ease;
 }
 
-.project__buttons-next svg:hover path[stroke],
-.project__buttons-prev svg:hover path[stroke] {
+.project__buttons-prev:hover path,
+.project__buttons-next:hover path {
   stroke: white;
-  transition: all 0.5s ease;
-}
+} */
 
 .vision {
   height: 100vh;
