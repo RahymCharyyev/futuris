@@ -56,7 +56,7 @@
                 <a href="#services" class="header__nav-link">services</a>
                 <a href="#about" class="header__nav-link">about us</a>
             </div>
-            <div class="burger-icon">
+            <div class="burger-icon wow animate__animated animate__fadeInDown animate__delay-2s">
                 <span></span>
                 <span></span>
             </div>
@@ -149,18 +149,20 @@
                 <div class="vertical__slider-wrapper">
                     <h2 class="services__title">Services</h2>
                     <div class="services__texts">
-                        <p>Automation & Control</p>
-                        <p>Commissioning & Decommissioning</p>
-                        <p>Welding</p>
-                        <p>Isolation</p>
-                        <p>Operational Assurance</p>
-                        <p>Destructive Testing</p>
-                        <p>Hydrotesting</p>
-                        <p>Intelligent Pigging</p>
-                        <p>Pipeline Equipment Maintenance</p>
-                        <p>Flow Assurance</p>
-                        <p>Construction</p>
-                        <p>Wiring</p>
+                        <div class="services__texts-wrapper">
+                            <p>Automation & Control</p>
+                            <p>Commissioning & Decommissioning</p>
+                            <p>Welding</p>
+                            <p>Isolation</p>
+                            <p>Operational Assurance</p>
+                            <p>Destructive Testing</p>
+                            <p>Hydrotesting</p>
+                            <p>Intelligent Pigging</p>
+                            <p>Pipeline Equipment Maintenance</p>
+                            <p>Flow Assurance</p>
+                            <p>Construction</p>
+                            <p>Wiring</p>
+                        </div>
                     </div>
                     <p class="bottom__text">Full coverage of Industrial Services</p>
                     <div class="custom-dots-horizontal wow animate__animated animate__fadeIn">
@@ -265,14 +267,14 @@
                 </div>
             </div>
             <div class="project__buttons wow animate__animated animate__fadeInRight">
-                <svg onclick="resetButtonColor()" id="button1" class="project__buttons-prev" width="50" height="50"
-                    viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="button1" class="project__buttons-prev" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <circle cx="25" cy="25" r="24.5" stroke="black" />
                     <path d="M29 34L20 25L29 16" stroke="black" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
-                <svg onclick="resetButtonColor()" id="button2" class="project__buttons-next" width="50" height="50"
-                    viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id="button2" class="project__buttons-next" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <circle cx="25" cy="25" r="24.5" stroke="black" />
                     <path d="M21 34L30 25L21 16" stroke="black" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
@@ -286,7 +288,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img1.webp" />
-                        <img src="./img/projects_img1.jpg" alt="projects-picture-one" width="420" height="280" />
+                        <img src="./img/projects_img1.jpg" alt="projects-picture-one" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Delivery of Automation Equipment</h3>
@@ -297,7 +299,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img2.webp" />
-                        <img src="./img/projects_img2.jpg" alt="projects-picture-two" width="420" height="280" />
+                        <img src="./img/projects_img2.jpg" alt="projects-picture-two" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Supply, Installation and Commissioning of Yoloten Gas Metering Station</h3>
@@ -308,7 +310,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img3.webp" />
-                        <img src="./img/projects_img3.jpg" alt="projects-picture-three" width="420" height="280" />
+                        <img src="./img/projects_img3.jpg" alt="projects-picture-three" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>EPC project on Construction of Water Purification System</h3>
@@ -319,7 +321,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img4.webp" />
-                        <img src="./img/projects_img4.jpg" alt="projects-picture-four" width="420" height="280" />
+                        <img src="./img/projects_img4.jpg" alt="projects-picture-four" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Chaloyuk Gas Metering Station</h3>
@@ -330,7 +332,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img5.webp" />
-                        <img src="./img/projects_img5.jpg" alt="projects-picture-five" width="420" height="280" />
+                        <img src="./img/projects_img5.jpg" alt="projects-picture-five" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Supply, Installation and Commissioning of Bagtyyarlyk-2 Fiscal Gas Metering Station</h3>
@@ -341,7 +343,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img6.webp" />
-                        <img src="./img/projects_img6.jpg" alt="projects-picture-six" width="420" height="280" />
+                        <img src="./img/projects_img6.jpg" alt="projects-picture-six" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Supply of Electrical & Instruments spare parts for offshore</h3>
@@ -352,7 +354,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img7.webp" />
-                        <img src="./img/projects_img7.jpg" alt="projects-picture-seven" width="420" height="280" />
+                        <img src="./img/projects_img7.jpg" alt="projects-picture-seven" width="362" height="280" />
                     </picture>
                     <div>
                         <h3>Supply of Bearings, Mechanical seals & O-rings</h3>
@@ -363,7 +365,7 @@
                 <div class="projects__mobile-slide">
                     <picture>
                         <source type="image/webp" srcSet="./img/projects_img8.webp" />
-                        <img rapper-img" src="./img/projects_img8.jpg" alt="projects-picture-eight" width="420"
+                        <img rapper-img" src="./img/projects_img8.jpg" alt="projects-picture-eight" width="362"
                             height="280" />
                     </picture>
                     <div>
@@ -389,7 +391,7 @@
             </div>
         </section>
         <section class="vision" id="vision">
-            <h2 class="vision_title wow animate__animated animate__fadeInDown">Vision</h2>
+            <h2 class="vision__title wow animate__animated animate__fadeInDown">Vision</h2>
             <div class="vision__wrapper">
                 <div class="vision__passion wow animate__animated animate__fadeInLeft">
                     <picture>

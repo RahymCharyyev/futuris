@@ -15,6 +15,19 @@
   --slide-margin: 20px;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fffcf5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 2px;
+}
+
 @font-face {
   font-family: Archivo;
   src: url("../fonts/Archivo-Light.ttf");
@@ -161,7 +174,7 @@ body {
 
 .fieldOfOperation__texts,
 .expertise__texts,
-.services__texts {
+.services__texts-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -174,7 +187,7 @@ body {
   font-size: 32px;
 }
 
-.services__texts p {
+.services__texts-wrapper p {
   font-size: 28px;
 }
 
@@ -183,7 +196,7 @@ body {
   gap: 70px;
 }
 
-.services__texts {
+.services__texts-wrapper {
   gap: 20px;
 }
 
@@ -200,6 +213,7 @@ body {
   position: absolute;
   gap: 15px;
   top: 52vh;
+  top: 52svh;
   left: 0;
   transform: translateY(-50%);
   z-index: 10;
@@ -272,11 +286,11 @@ body {
   text-align: left;
 }
 
-.slick-list {
+.slider .slick-list {
   margin-right: calc(-1 * var(--slide-margin));
 }
 
-.slick-slide {
+.slider .slick-slide {
   margin-right: var(--slide-margin);
 }
 
@@ -318,7 +332,7 @@ p {
   margin-top: 150px;
 }
 
-.vision_title {
+.vision__title {
   font-size: 40px;
   font-weight: var(--medium);
   text-align: center;

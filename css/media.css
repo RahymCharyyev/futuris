@@ -84,7 +84,7 @@
     font-size: 30px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 24px;
   }
 
@@ -93,7 +93,7 @@
     gap: 45px;
   }
 
-  .services__texts {
+  .services__texts-wrapper {
     gap: 15px;
     padding: 50px 0 50px 0;
   }
@@ -233,7 +233,7 @@
     font-size: 25px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 20px;
   }
 
@@ -241,7 +241,7 @@
     gap: 25px;
   }
 
-  .services__texts {
+  .services__texts-wrapper {
     padding: 0;
   }
 
@@ -285,7 +285,7 @@
     margin-top: 80px;
   }
 
-  .vision_title {
+  .vision__title {
     font-size: 32px;
     margin-bottom: 8rem;
   }
@@ -506,7 +506,7 @@
     font-size: 28px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 26px;
   }
 
@@ -550,7 +550,7 @@
     margin-top: 125px;
   }
 
-  .vision_title {
+  .vision__title {
     margin-bottom: 60px;
   }
 
@@ -752,7 +752,7 @@
     font-size: 24px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 16px;
   }
 
@@ -764,7 +764,7 @@
     gap: 25px;
   }
 
-  .services__texts {
+  .services__texts-wrapper {
     gap: 10px;
   }
 
@@ -805,7 +805,7 @@
     margin-top: 30px;
   }
 
-  .vision_title {
+  .vision__title {
     font-size: 30px;
     margin-bottom: 130px;
   }
@@ -925,12 +925,79 @@
     font-size: 24px;
   }
 
+  .header__nav-logo {
+    width: 123px;
+  }
+
   .header__nav {
     padding-top: 55px;
   }
 
   .header__nav-links {
     display: none;
+  }
+
+  .about {
+    height: 200vh;
+    height: 200svh;
+    background-image: url("../img/about__img-mobile-land.svg");
+    background-position: center;
+    background-size: 80%;
+    margin-bottom: 80px;
+  }
+
+  .about__text-two {
+    padding: 0;
+  }
+
+  .vertical__slider-wrapper {
+    padding: 0;
+  }
+
+  .fieldsOfOperation__title,
+  .expertise__title,
+  .services__title {
+    font-size: 24px;
+  }
+
+  .fieldOfOperation__texts p {
+    font-size: 24px;
+  }
+
+  .expertise__texts p,
+  .services__texts-wrapper p {
+    font-size: 20px;
+  }
+
+  .fieldOfOperation__texts {
+    gap: 30px;
+  }
+
+  .expertise__texts {
+    gap: 20px;
+  }
+
+  .services__texts {
+    column-width: 100%;
+    column-count: 2;
+    column-gap: 0px;
+  }
+
+  .services__texts-wrapper {
+    margin-left: 50px;
+  }
+
+  .services__texts-wrapper p {
+    text-align: left;
+  }
+
+  .bottom__text {
+    font-size: 20px;
+  }
+
+  .custom-dots {
+    top: 53vh;
+    top: 53svh;
   }
 
   .projects {
@@ -945,7 +1012,7 @@
     font-weight: var(--medium);
     font-size: 24px;
     position: absolute;
-    left: 75vw;
+    left: 70vw;
     z-index: 50;
   }
 
@@ -954,6 +1021,7 @@
     flex-direction: row;
     gap: 25px;
     align-items: center;
+    justify-content: space-between;
   }
 
   .projects__mobile-slide div {
@@ -962,22 +1030,160 @@
     gap: 10px;
   }
 
-  .projects__mobile-slide h3,
-  p {
-    font-size: 20px;
+  .projects__mobile-slide h3 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .projects__mobile-slide p {
+    font-size: 18px;
     font-weight: 300;
   }
 
   .projects__mobile-buttons {
     position: relative;
     bottom: 40px;
-    left: 65vw;
+    right: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background: none;
+    gap: 6.5px;
     z-index: 51;
   }
 
   .projects__mobile-buttons svg {
     width: 40px;
     height: 40px;
+  }
+
+  .vision {
+    height: 100vh;
+    margin: 40px 0 85px 0;
+  }
+
+  .vision__title {
+    font-size: 24px;
+    margin-bottom: 55px;
+  }
+
+  .vision__passion img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .vision__collaboration img {
+    width: 130px;
+    height: 120px;
+  }
+
+  .vision__integrity img {
+    width: 104px;
+    height: 120px;
+  }
+
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
+    font-size: 20px;
+  }
+
+  .vision__passion p,
+  .vision__collaboration p,
+  .vision__integrity p {
+    font-size: 16px;
+  }
+
+  .vision__passion p {
+    width: 11rem;
+  }
+
+  .vision__collaboration p {
+    width: 12rem;
+  }
+
+  .vision__integrity p {
+    width: 11rem;
+  }
+
+  .customers {
+    margin-bottom: 150px;
+  }
+
+  .customers__title {
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 55px 0;
+  }
+
+  #tmgaz,
+  #petronas {
+    width: 83px;
+    height: 68px;
+  }
+
+  #dragon {
+    width: 110px;
+    height: 68px;
+  }
+
+  #cnpc {
+    width: 63px;
+    height: 68px;
+  }
+
+  #schlumberger {
+    width: 125px;
+    height: 28px;
+  }
+
+  #tmnebit {
+    width: 63px;
+    height: 74px;
+  }
+
+  #lukoil {
+    width: 52px;
+    height: 68px;
+  }
+
+  #kawasaki {
+    width: 75px;
+    height: 40px;
+  }
+
+  #tmhimiya {
+    width: 77px;
+    height: 77px;
+  }
+
+  #eni {
+    width: 74px;
+    height: 74px;
+  }
+
+  #toyo {
+    width: 67px;
+    height: 77px;
+  }
+
+  #tngzit {
+    width: 60px;
+    height: 80px;
+  }
+
+  .footer {
+    margin: 0;
+  }
+
+  .footer__contacts p,
+  .footer__rights p {
+    font-size: 16px;
+  }
+
+  .footer__logo {
+    width: 87px;
+    height: 87px;
   }
 }
 
@@ -1037,7 +1243,7 @@
     font-size: 24px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 16px;
   }
 
@@ -1049,7 +1255,7 @@
     gap: 25px;
   }
 
-  .services__texts {
+  .services__texts-wrapper {
     gap: 10px;
   }
 
@@ -1090,7 +1296,7 @@
     margin-top: 30px;
   }
 
-  .vision_title {
+  .vision__title {
     font-size: 30px;
     margin-bottom: 130px;
   }
@@ -1321,7 +1527,7 @@
     font-size: 24px;
   }
 
-  .services__texts p {
+  .services__texts-wrapper p {
     font-size: 20px;
   }
 
@@ -1352,7 +1558,7 @@
     margin-top: 70px;
   }
 
-  .vision_title {
+  .vision__title {
     margin-bottom: 40px;
   }
 
