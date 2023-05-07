@@ -1187,6 +1187,205 @@
   }
 }
 
+/* Landscape orientation */
+@media (max-width: 700px) and (orientation: landscape) {
+  .header__title {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+  }
+
+  .header__nav-logo {
+    width: 102px;
+    height: 17px;
+  }
+
+  .header__nav {
+    padding-top: 25px;
+  }
+
+  .about {
+    height: 180vh;
+    height: 180svh;
+    background-size: 100%;
+    margin-bottom: 80px;
+  }
+
+  .about__text-one,
+  .about__text-two {
+    font-size: 14px;
+  }
+
+  .about__text-two {
+    padding: 0;
+  }
+
+  .fieldsOfOperation__title,
+  .expertise__title,
+  .services__title {
+    font-size: 20px;
+  }
+
+  .fieldOfOperation__texts p {
+    font-size: 20px;
+  }
+
+  .expertise__texts p,
+  .services__texts-wrapper p {
+    font-size: 16px;
+  }
+
+  .bottom__text {
+    font-size: 16px;
+  }
+
+  .projects__mobile-title {
+    font-size: 20px;
+  }
+
+  .projects__mobile-slide {
+    gap: 20px;
+  }
+
+  .projects__mobile-slide img {
+    width: 300px;
+    height: 245px;
+  }
+
+  .projects__mobile-slide h3,
+  .projects__mobile-slide p {
+    font-size: 16px;
+  }
+
+  .projects__mobile-buttons {
+    bottom: 35px;
+  }
+
+  .projects__mobile-buttons svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .vision__title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .vision__passion img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .vision__collaboration img {
+    width: 110px;
+    height: 100px;
+  }
+
+  .vision__integrity img {
+    width: 87px;
+    height: 100px;
+  }
+
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
+    font-size: 16px;
+  }
+
+  .vision__passion p,
+  .vision__collaboration p,
+  .vision__integrity p {
+    font-size: 14px;
+  }
+
+  .vision__passion p {
+    width: 9rem;
+  }
+
+  .vision__collaboration p {
+    width: 11rem;
+  }
+
+  .vision__integrity p {
+    width: 10rem;
+  }
+
+  .customers__title {
+    font-size: 20px;
+    margin: 0 0 50px 0;
+    padding: 0;
+  }
+
+  #tmgaz,
+  #petronas {
+    width: 67px;
+    height: 56px;
+  }
+
+  #dragon {
+    width: 90px;
+    height: 57px;
+  }
+
+  #cnpc {
+    width: 51px;
+    height: 56px;
+  }
+
+  #schlumberger {
+    width: 102px;
+    height: 23px;
+  }
+
+  #tmnebit {
+    width: 52px;
+    height: 61px;
+  }
+
+  #lukoil {
+    width: 43px;
+    height: 56px;
+  }
+
+  #kawasaki {
+    width: 62px;
+    height: 34px;
+  }
+
+  #tmhimiya {
+    width: 63px;
+    height: 63px;
+  }
+
+  #eni {
+    width: 61px;
+    height: 61px;
+  }
+
+  #toyo {
+    width: 55px;
+    height: 63px;
+  }
+
+  #tngzit {
+    width: 48px;
+    height: 66px;
+  }
+
+  .footer__contacts p,
+  .footer__rights p {
+    font-size: 16px;
+  }
+
+  .footer__logo {
+    width: 83px;
+    height: 83px;
+  }
+}
+
 @media (max-width: 760px) {
   .header {
     margin-bottom: 90px;
@@ -1402,205 +1601,6 @@
   .footer__contacts p,
   .footer__rights p {
     font-size: 20px;
-  }
-}
-
-/* Landscape orientation */
-@media (max-width: 700px) and (orientation: landscape) {
-  .header__title {
-    font-size: 36px;
-    padding-bottom: 5px;
-  }
-
-  .header__subtitle {
-    font-size: 20px;
-  }
-
-  .header__nav-logo {
-    width: 102px;
-    height: 17px;
-  }
-
-  .header__nav {
-    padding-top: 25px;
-  }
-
-  .about {
-    height: 180vh;
-    height: 180svh;
-    background-size: 100%;
-    margin-bottom: 80px;
-  }
-
-  .about__text-one,
-  .about__text-two {
-    font-size: 14px;
-  }
-
-  .about__text-two {
-    padding: 0;
-  }
-
-  .fieldsOfOperation__title,
-  .expertise__title,
-  .services__title {
-    font-size: 20px;
-  }
-
-  .fieldOfOperation__texts p {
-    font-size: 20px;
-  }
-
-  .expertise__texts p,
-  .services__texts-wrapper p {
-    font-size: 16px;
-  }
-
-  .bottom__text {
-    font-size: 16px;
-  }
-
-  .projects__mobile-title {
-    font-size: 20px;
-  }
-
-  .projects__mobile-slide {
-    gap: 20px;
-  }
-
-  .projects__mobile-slide img {
-    width: 300px;
-    height: 245px;
-  }
-
-  .projects__mobile-slide h3,
-  .projects__mobile-slide p {
-    font-size: 16px;
-  }
-
-  .projects__mobile-buttons {
-    bottom: 35px;
-  }
-
-  .projects__mobile-buttons svg {
-    width: 35px;
-    height: 35px;
-  }
-
-  .vision__title {
-    font-size: 20px;
-    margin-bottom: 40px;
-  }
-
-  .vision__passion img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .vision__collaboration img {
-    width: 110px;
-    height: 100px;
-  }
-
-  .vision__integrity img {
-    width: 87px;
-    height: 100px;
-  }
-
-  .vision__passion h2,
-  .vision__collaboration h2,
-  .vision__integrity h2 {
-    font-size: 16px;
-  }
-
-  .vision__passion p,
-  .vision__collaboration p,
-  .vision__integrity p {
-    font-size: 14px;
-  }
-
-  .vision__passion p {
-    width: 9rem;
-  }
-
-  .vision__collaboration p {
-    width: 11rem;
-  }
-
-  .vision__integrity p {
-    width: 10rem;
-  }
-
-  .customers__title {
-    font-size: 20px;
-    margin: 0 0 50px 0;
-    padding: 0;
-  }
-
-  #tmgaz,
-  #petronas {
-    width: 67px;
-    height: 56px;
-  }
-
-  #dragon {
-    width: 90px;
-    height: 57px;
-  }
-
-  #cnpc {
-    width: 51px;
-    height: 56px;
-  }
-
-  #schlumberger {
-    width: 102px;
-    height: 23px;
-  }
-
-  #tmnebit {
-    width: 52px;
-    height: 61px;
-  }
-
-  #lukoil {
-    width: 43px;
-    height: 56px;
-  }
-
-  #kawasaki {
-    width: 62px;
-    height: 34px;
-  }
-
-  #tmhimiya {
-    width: 63px;
-    height: 63px;
-  }
-
-  #eni {
-    width: 61px;
-    height: 61px;
-  }
-
-  #toyo {
-    width: 55px;
-    height: 63px;
-  }
-
-  #tngzit {
-    width: 48px;
-    height: 66px;
-  }
-
-  .footer__contacts p,
-  .footer__rights p {
-    font-size: 16px;
-  }
-
-  .footer__logo {
-    width: 83px;
-    height: 83px;
   }
 }
 
