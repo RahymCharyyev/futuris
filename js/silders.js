@@ -86,3 +86,16 @@ $(document).ready(function () {
     }
   );
 });
+
+$(document).ready(function () {
+  $(".project__mobile-slider").slick({
+    arrows: true,
+    dots: false,
+    infinite: true,
+    fade: true,
+    speed: 500,
+    slidesToShow: 1,
+    prevArrow: "#button3",
+    nextArrow: "#button4",
+  });
+});

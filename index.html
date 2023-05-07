@@ -33,10 +33,6 @@
     <link rel="mask-icon" href="img/icon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
@@ -271,13 +267,122 @@
                 </div>
             </div>
             <div class="project__buttons wow animate__animated animate__fadeInRight">
-                <svg id="button1" class="project__buttons-prev" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                <svg onclick="resetButtonColor()" id="button1" class="project__buttons-prev" width="50" height="50"
+                    viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24.5" stroke="black" />
+                    <path d="M29 34L20 25L29 16" stroke="black" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <svg onclick="resetButtonColor()" id="button2" class="project__buttons-next" width="50" height="50"
+                    viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24.5" stroke="black" />
+                    <path d="M21 34L30 25L21 16" stroke="black" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+            </div>
+        </section>
+        <section class="projects__mobile">
+            <h2 class="projects__mobile-title">Projects</h2>
+            <div class="project__mobile-slider">
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img1.webp" />
+                        <img src="./img/projects_img1.jpg" alt="projects-picture-one" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Delivery of Automation Equipment</h3>
+                        <p>Year: 2015</p>
+                        <p>Customer: Turkmenbashi Complex of oil refineries</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img2.webp" />
+                        <img src="./img/projects_img2.jpg" alt="projects-picture-two" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Supply, Installation and Commissioning of Yoloten Gas Metering Station</h3>
+                        <p>Year: 2016</p>
+                        <p>Customer: Turkmengas</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img3.webp" />
+                        <img src="./img/projects_img3.jpg" alt="projects-picture-three" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>EPC project on Construction of Water Purification System</h3>
+                        <p>Year: 2017</p>
+                        <p>Customer: Municipality of Ashgabat</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img4.webp" />
+                        <img src="./img/projects_img4.jpg" alt="projects-picture-four" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Chaloyuk Gas Metering Station</h3>
+                        <p>Year: 2018</p>
+                        <p>Customer: Turkmengas</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img5.webp" />
+                        <img src="./img/projects_img5.jpg" alt="projects-picture-five" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Supply, Installation and Commissioning of Bagtyyarlyk-2 Fiscal Gas Metering Station</h3>
+                        <p>Year: 2016</p>
+                        <p>Customer: Turkmengas</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img6.webp" />
+                        <img src="./img/projects_img6.jpg" alt="projects-picture-six" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Supply of Electrical & Instruments spare parts for offshore</h3>
+                        <p>Year: 2018</p>
+                        <p>Customer: Petronas Charigali Turkmenistan Sdn. Bhd.</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img7.webp" />
+                        <img src="./img/projects_img7.jpg" alt="projects-picture-seven" width="420" height="280" />
+                    </picture>
+                    <div>
+                        <h3>Supply of Bearings, Mechanical seals & O-rings</h3>
+                        <p>Year: 2020</p>
+                        <p>Customer: Socar</p>
+                    </div>
+                </div>
+                <div class="projects__mobile-slide">
+                    <picture>
+                        <source type="image/webp" srcSet="./img/projects_img8.webp" />
+                        <img rapper-img" src="./img/projects_img8.jpg" alt="projects-picture-eight" width="420"
+                            height="280" />
+                    </picture>
+                    <div>
+                        <h3>Supply of spare parts for overhauling of pumps</h3>
+                        <p>Year: 2021</p>
+                        <p>Customer: Lukoil Uzbekistan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__mobile-buttons">
+                <svg id="button3" width="50" height="50" viewBox="0 0 50 50" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="25" cy="25" r="24.5" stroke="black" />
                     <path d="M29 34L20 25L29 16" stroke="black" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
-                <svg id="button2" class="project__buttons-next" width="50" height="50" viewBox="0 0 50 50" fill="none"
+                <svg id="button4" width="50" height="50" viewBox="0 0 50 50" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="25" cy="25" r="24.5" stroke="black" />
                     <path d="M21 34L30 25L21 16" stroke="black" stroke-width="2" stroke-linecap="round"
@@ -390,6 +495,6 @@
 <script type="text/javascript" src="./js/hamburger.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/wowInit.js"></script>
-<script type="text/javascript" src="./js/script.js"></script>
+<!-- <script type="text/javascript" src="./js/script.js"></script> -->
 
 </html>

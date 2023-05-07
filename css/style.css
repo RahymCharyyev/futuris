@@ -17,8 +17,26 @@
 
 @font-face {
   font-family: Archivo;
+  src: url("../fonts/Archivo-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Archivo;
   src: url("../fonts/Archivo-Regular.ttf");
   font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Archivo;
+  src: url("../fonts/Archivo-Medium.ttf");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /* DEFAULT STYLES */
@@ -77,6 +95,7 @@ body {
 
 .header__title {
   font-size: 64px;
+  font-weight: var(--regular);
   text-align: center;
   padding-bottom: 10px;
 }
@@ -84,8 +103,8 @@ body {
 .header__subtitle {
   font-size: 32px;
   font-weight: var(--regular);
-  text-align: center;
   color: var(--secondary_color);
+  text-align: center;
 }
 
 .about {
@@ -264,7 +283,6 @@ body {
 .slide-desc h3,
 p {
   font-size: 24px;
-  font-weight: var(--light);
 }
 
 .slide-desc h3 {
@@ -287,18 +305,12 @@ p {
 .project__buttons-next,
 .project__buttons-prev {
   cursor: pointer;
-  /* transition: 0.3s; */
+  transition: 0.3s;
 }
 
-/* .project__buttons-prev:hover,
-.project__buttons-next:hover {
-  fill: black;
+.projects__mobile {
+  display: none;
 }
-
-.project__buttons-prev:hover path,
-.project__buttons-next:hover path {
-  stroke: white;
-} */
 
 .vision {
   height: 100vh;
