@@ -56,17 +56,15 @@
                 <a href="#services" class="header__nav-link">services</a>
                 <a href="#about" class="header__nav-link">about us</a>
             </div>
-            <div id="menu" title="menu icon" class="wow animate__animated animate__fadeInDown animate__delay-2s">
-                <span class="line1"></span>
-                <span class="line2"></span>
+            <div class="burger-icon">
+                <span></span>
+                <span></span>
             </div>
-            <div class="menu-links">
-                <ul>
-                    <li><a href="#">main </a></li>
-                    <li><a href="#">services </a></li>
-                    <li><a href="#">about us </a></li>
-                </ul>
-            </div>
+            <ul class="nav-links">
+                <li><a href="#footer" onclick="closeMenu()">main</a></li>
+                <li><a href="#about" onclick="closeMenu()">services</a></li>
+                <li><a href="#about" onclick="closeMenu()">about us</a></li>
+            </ul>
         </nav>
         <svg width="310" height="738" viewBox="0 0 310 738" fill="none" xmlns="http://www.w3.org/2000/svg"
             class="header__img">
@@ -472,7 +470,7 @@
                 </picture>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="footer__wrapper">
                 <div class="footer__contacts wow animate__animated animate__fadeInLeft">
                     <p> <strong>Address:</strong> UAE: SAIF Office, P8-08-37, PO Box 122788, Sharjah.</p>
