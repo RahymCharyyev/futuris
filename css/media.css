@@ -1,50 +1,3 @@
-/* Styles of buttons on hover on tablets and smartphones */
-@media (min-width: 1024px) {
-  #button1:hover,
-  #button2:hover,
-  #button3:hover,
-  #button4:hover {
-    fill: black;
-  }
-
-  #button1:hover path,
-  #button2:hover path,
-  #button3:hover path,
-  #button4:hover path {
-    stroke: white;
-  }
-
-  #button1:active,
-  #button2:active,
-  #button3:active,
-  #button4:active {
-    fill: black;
-  }
-
-  #button1:active path,
-  #button2:active path,
-  #button3:active path,
-  #button4:active path {
-    stroke: white;
-  }
-}
-
-@media (max-width: 1024px) {
-  #button1:active,
-  #button2:active,
-  #button3:active,
-  #button4:active {
-    fill: black;
-  }
-
-  #button1:active path,
-  #button2:active path,
-  #button3:active path,
-  #button4:active path {
-    stroke: white;
-  }
-}
-
 @media (max-width: 1655px) {
   .header__nav-logo {
     width: 162px;
@@ -433,7 +386,7 @@
   }
 
   .customers__wrapper {
-    gap: 7.2rem;
+    gap: 4rem;
   }
 }
 
@@ -719,14 +672,14 @@
   }
 
   .about__text-one {
-    width: 18rem;
-    padding-top: 5px;
-    font-size: 16px;
+    width: 20rem;
+    padding-top: 80px;
+    font-size: 18px;
   }
 
   .about__text-two {
-    width: 16rem;
-    font-size: 16px;
+    width: 20rem;
+    font-size: 18px;
     padding-bottom: 50px;
   }
 
@@ -735,25 +688,25 @@
   }
 
   .vertical__slider-wrapper {
-    padding: 20px 0 20px 0;
+    padding: 100px 0 100px 0;
   }
 
   .fieldsOfOperation__title,
   .expertise__title,
   .services__title {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .fieldOfOperation__texts p {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .expertise__texts p {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .services__texts-wrapper p {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .fieldOfOperation__texts {
@@ -777,7 +730,7 @@
   }
 
   .projects__title {
-    font-size: 30px;
+    font-size: 32px;
     padding-top: 30px;
     padding-bottom: 45px;
   }
@@ -786,13 +739,19 @@
     overflow: hidden;
   }
 
+  .slick-slide {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
   .slide-desc h3,
   p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .project__buttons {
-    margin-top: 10px;
+    margin-top: 50px;
+    right: 0;
   }
 
   #button1 svg,
@@ -806,7 +765,7 @@
   }
 
   .vision__title {
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 130px;
   }
 
@@ -832,7 +791,7 @@
   }
 
   .customers__title {
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 70px;
   }
 
@@ -897,11 +856,12 @@
   }
 
   .footer {
-    margin-top: 115px;
+    margin-top: 0;
   }
 
   .footer__logo {
-    width: 95px;
+    width: 150px;
+    height: 150px;
   }
 
   .footer__rights {
@@ -910,15 +870,21 @@
 
   .footer__contacts p,
   .footer__rights p {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 /* Landscape orientation */
 @media (max-width: 920px) and (orientation: landscape) {
+  body {
+    margin: 0 5%;
+  }
   .header__title {
     font-size: 40px;
     padding-bottom: 5px;
+  }
+  .header__img {
+    display: none;
   }
 
   .header__subtitle {
@@ -930,7 +896,8 @@
   }
 
   .header__nav {
-    padding-top: 55px;
+    align-items: flex-start;
+    padding-top: 20px;
   }
 
   .header__nav-links {
@@ -938,16 +905,23 @@
   }
 
   .about {
-    height: 200vh;
-    height: 200svh;
+    height: 230vh;
+    height: 230svh;
     background-image: url("../img/about__img-mobile-land.svg");
-    background-position: center;
-    background-size: 80%;
+    background-position: left 60%;
+    background-size: 100%;
     margin-bottom: 80px;
   }
 
+  .about__text-one {
+    width: 21rem;
+    font-size: 16px;
+  }
   .about__text-two {
+    width: 21rem;
+    font-size: 16px;
     padding: 0;
+    text-align: right;
   }
 
   .vertical__slider-wrapper {
@@ -1176,18 +1150,26 @@
     margin: 0;
   }
 
+  .footer__contacts {
+    gap: 12px;
+  }
+
+  .footer__wrapper {
+    align-items: flex-end;
+  }
+
   .footer__contacts p,
   .footer__rights p {
     font-size: 16px;
   }
 
   .footer__logo {
-    width: 87px;
-    height: 87px;
+    width: 100px;
+    height: 100px;
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 760px) and (orientation: portrait) {
   .header {
     margin-bottom: 90px;
   }
@@ -1206,27 +1188,22 @@
 
   .about {
     background-size: 90%;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
 
   .about__text-one {
     width: 18rem;
-    padding-top: 5px;
     font-size: 16px;
   }
 
   .about__text-two {
-    width: 16rem;
+    width: 19rem;
     font-size: 16px;
     padding-bottom: 50px;
   }
 
   .vertical__slider-container {
     margin-bottom: 90px;
-  }
-
-  .vertical__slider-wrapper {
-    padding: 20px 0 20px 0;
   }
 
   .fieldsOfOperation__title,
@@ -1244,7 +1221,7 @@
   }
 
   .services__texts-wrapper p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .fieldOfOperation__texts {
@@ -1264,7 +1241,7 @@
   }
 
   .projects {
-    height: 100vh;
+    height: 90vh;
   }
 
   .projects__title {
@@ -1277,18 +1254,17 @@
     overflow: hidden;
   }
 
+  .slider img {
+    height: auto;
+  }
+
   .slide-desc h3,
   p {
     font-size: 16px;
   }
 
-  .project__buttons {
-    margin-top: 10px;
-    right: 0;
-  }
-
   .vision {
-    margin-top: 30px;
+    margin-bottom: 100px;
   }
 
   .vision__title {
@@ -1300,6 +1276,18 @@
   .vision__collaboration,
   .vision__integrity {
     gap: 15px;
+  }
+
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
+    font-size: 24px;
+  }
+
+  .vision__passion p,
+  .vision__collaboration p,
+  .vision__integrity p {
+    font-size: 20px;
   }
 
   .vision__passion img {
@@ -1387,7 +1375,8 @@
   }
 
   .footer__logo {
-    width: 95px;
+    width: 140px;
+    height: 140px;
   }
 
   .footer__rights {
@@ -1421,18 +1410,20 @@
   }
 
   .about {
-    height: 180vh;
-    height: 180svh;
+    height: 220vh;
+    height: 220svh;
     background-size: 100%;
     margin-bottom: 80px;
   }
 
-  .about__text-one,
-  .about__text-two {
+  .about__text-one {
+    width: 18.5rem;
     font-size: 14px;
   }
 
   .about__text-two {
+    width: 17rem;
+    font-size: 14px;
     padding: 0;
   }
 
@@ -1446,8 +1437,11 @@
     font-size: 20px;
   }
 
-  .expertise__texts p,
-  .services__texts-wrapper p {
+  .expertise__texts p {
+    font-size: 18px;
+  }
+
+  .services__texts p {
     font-size: 16px;
   }
 
@@ -1590,7 +1584,7 @@
 
   .footer__contacts p,
   .footer__rights p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .footer__logo {
@@ -1663,7 +1657,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
   .header {
     margin-top: 10px;
     margin-bottom: 75px;
@@ -1672,6 +1666,10 @@
   .header__nav-logo {
     width: 130px;
     height: 23px;
+  }
+
+  .header__img {
+    width: 200px;
   }
 
   .header__title {
@@ -1694,13 +1692,13 @@
   }
 
   .about__text-one {
-    width: 275px;
+    width: 100%;
     font-size: 16px;
     padding-top: 5px;
   }
 
   .about__text-two {
-    width: 275px;
+    width: 100%;
     font-size: 16px;
     align-self: self-start;
     padding-bottom: 20px;
@@ -1714,6 +1712,10 @@
   .expertise__title,
   .services__title {
     font-size: 32px;
+  }
+
+  .vertical__slider-wrapper {
+    margin: 0;
   }
 
   .fieldOfOperation__texts p,
@@ -1739,18 +1741,18 @@
     padding: 24px 0 24px 0;
   }
 
-  .project__buttons {
-    justify-content: center;
-    right: 0;
+  .slide-desc h3,
+  p {
+    font-size: 20px;
   }
 
-  .project__buttons svg {
-    width: 40px;
-    height: 40px;
+  .project__buttons {
+    justify-content: center;
+    margin-top: 20px;
   }
 
   .vision {
-    margin-top: 70px;
+    margin: 150px 0 150px 0;
   }
 
   .vision__title {
@@ -1767,16 +1769,16 @@
     gap: 10px;
   }
 
-  .vision__passion h3,
-  .vision__collaboration h3,
-  .vision__integrity h3 {
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
     font-size: 20px;
   }
 
   .vision__passion p,
   .vision__collaboration p,
   .vision__integrity p {
-    font-size: 16px;
+    font-size: 18px;
     max-width: 315px;
   }
 
@@ -1814,18 +1816,181 @@
     height: 113px;
   }
 
-  .footer__contacts p {
-    font-size: 20px;
+  .footer__contacts {
+    width: 102%;
   }
 
+  .footer__contacts p,
   .footer__rights p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
+  /* .header {
+    margin-top: 10px;
+    margin-bottom: 75px;
+  }
+
+  .header__nav-logo {
+    width: 130px;
+    height: 23px;
+  }
+
+  .header__img {
+    width: 200px;
+  }
+
+  .header__title {
+    font-size: 36px;
+    text-align: left;
+    font-weight: var(--regular);
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+    text-align: left;
+  } */
+
+  .about {
+    height: 120vh;
+    height: 120svh;
+  }
+
+  .about__text-one {
+    padding-top: 0px;
+  }
+
+  .about__text-two {
+    padding-bottom: 0px;
+  }
+
+  /* .vertical__slider-wrapper {
+    padding: 20px 0 20px 0;
+  } */
+
+  /* .fieldsOfOperation__title,
+  .expertise__title,
+  .services__title {
+    font-size: 32px;
+  } */
+
+  /* .vertical__slider-wrapper {
+    margin: 0;
+  } */
+
+  .fieldOfOperation__texts p {
+    font-size: 24px;
+  }
+
+  .expertise__texts p {
+    font-size: 20px;
+  }
+
+  .services__texts p {
+    font-size: 16px;
+  }
+
+  /* .bottom__text {
+    display: none;
+  } */
+
+  /* .custom-dots .dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .projects__title {
+    font-size: 32px;
+    padding: 24px 0 24px 0;
+  }
+
+  .slide-desc h3,
+  p {
+    font-size: 20px;
+  }
+
+  .project__buttons {
+    justify-content: center;
+    margin-top: 20px;
+  } */
+
+  .vision {
+    margin: 250px 0 350px 0;
+  }
+
+  /* .vision__title {
+    margin-bottom: 40px;
+  }
+
+  .vision__wrapper {
+    gap: 30px;
+  }
+
+  .vision__passion,
+  .vision__collaboration,
+  .vision__integrity {
+    gap: 10px;
+  }
+
+  .vision__passion h2,
+  .vision__collaboration h2,
+  .vision__integrity h2 {
+    font-size: 20px;
+  }
+
+  .vision__passion p,
+  .vision__collaboration p,
+  .vision__integrity p {
+    font-size: 18px;
+    max-width: 315px;
+  }
+
+  .vision__passion img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .vision__collaboration img {
+    width: 135px;
+    height: 125px;
+  }
+
+  .vision__integrity img {
+    width: 108px;
+    height: 125px;
+  } */
+
+  .customers__title {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+
+  /* .footer__wrapper {
+    gap: 60px;
+  } */
+
+  /* .footer__logo {
+    width: 113px;
+    height: 113px;
+  } */
+
+  /* .footer__contacts {
+    width: 102%;
+  } */
+
+  .footer__contacts p,
+  .footer__rights p {
+    font-size: 18px;
+  }
+}
+
+/* @media (max-width: 350px) {
   .about__text-one,
   .about__text-two {
     width: 15rem;
   }
-}
+} */
