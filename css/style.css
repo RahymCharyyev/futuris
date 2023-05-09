@@ -12,7 +12,6 @@
   --semi-bold: 600;
   --bold: 700;
   --extra-bold: 800;
-  --slide-margin: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -59,14 +58,13 @@
   font-weight: var(--light);
   scroll-behavior: smooth;
   padding: 0;
-  margin: 0;
   background-color: var(--primary_color);
   user-select: none;
 }
 
 body {
   overflow-x: hidden;
-  margin: 0 10.5% 0 10.5%;
+  margin: 0 9%;
 }
 
 /* HEADER */
@@ -257,8 +255,6 @@ body {
   height: 100vh;
   height: 100svh;
   max-width: 1560px;
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -266,32 +262,24 @@ body {
   font-size: 40px;
   font-weight: var(--medium);
   text-align: center;
-  padding-top: 65px;
-  padding-bottom: 70px;
+  padding: 65px 0 70px 0;
 }
 
 .slider {
   height: auto;
-  max-width: 1560px;
-  width: 100%;
+  overflow: hidden;
 }
 
 .slider img {
-  max-width: 360px;
   height: auto;
 }
 
 .slide-desc {
-  max-width: 360px;
   text-align: left;
 }
 
-.slider .slick-list {
-  margin-right: calc(-1 * var(--slide-margin));
-}
-
-.slider .slick-slide {
-  margin-right: var(--slide-margin);
+.slick-slide {
+  margin-right: 20px;
 }
 
 .slide-desc h3,
@@ -314,10 +302,12 @@ p {
   justify-content: right;
   align-items: center;
   margin-top: 30px;
+  position: relative;
+  right: 22px;
 }
 
-.project__buttons-next,
-.project__buttons-prev {
+#button1,
+#button2 {
   cursor: pointer;
   transition: 0.3s;
 }

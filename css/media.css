@@ -116,8 +116,8 @@
     margin-top: 10px;
   }
 
-  .project__buttons-next svg,
-  .project__buttons-prev svg {
+  #button1 svg,
+  #button2 svg {
     width: 45px;
     height: 45px;
   }
@@ -795,8 +795,8 @@
     margin-top: 10px;
   }
 
-  .project__buttons-next svg,
-  .project__buttons-prev svg {
+  #button1 svg,
+  #button2 svg {
     width: 35px;
     height: 35px;
   }
@@ -1284,12 +1284,7 @@
 
   .project__buttons {
     margin-top: 10px;
-  }
-
-  .project__buttons-next svg,
-  .project__buttons-prev svg {
-    width: 35px;
-    height: 35px;
+    right: 0;
   }
 
   .vision {
@@ -1746,6 +1741,7 @@
 
   .project__buttons {
     justify-content: center;
+    right: 0;
   }
 
   .project__buttons svg {
