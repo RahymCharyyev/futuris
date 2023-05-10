@@ -1827,31 +1827,6 @@
 }
 
 @media (max-width: 380px) {
-  /* .header {
-    margin-top: 10px;
-    margin-bottom: 75px;
-  }
-
-  .header__nav-logo {
-    width: 130px;
-    height: 23px;
-  }
-
-  .header__img {
-    width: 200px;
-  }
-
-  .header__title {
-    font-size: 36px;
-    text-align: left;
-    font-weight: var(--regular);
-  }
-
-  .header__subtitle {
-    font-size: 20px;
-    text-align: left;
-  } */
-
   .about {
     height: 120vh;
     height: 120svh;
@@ -1865,20 +1840,6 @@
     padding-bottom: 0px;
   }
 
-  /* .vertical__slider-wrapper {
-    padding: 20px 0 20px 0;
-  } */
-
-  /* .fieldsOfOperation__title,
-  .expertise__title,
-  .services__title {
-    font-size: 32px;
-  } */
-
-  /* .vertical__slider-wrapper {
-    margin: 0;
-  } */
-
   .fieldOfOperation__texts p {
     font-size: 24px;
   }
@@ -1891,75 +1852,9 @@
     font-size: 16px;
   }
 
-  /* .bottom__text {
-    display: none;
-  } */
-
-  /* .custom-dots .dot {
-    width: 12px;
-    height: 12px;
-  }
-
-  .projects__title {
-    font-size: 32px;
-    padding: 24px 0 24px 0;
-  }
-
-  .slide-desc h3,
-  p {
-    font-size: 20px;
-  }
-
-  .project__buttons {
-    justify-content: center;
-    margin-top: 20px;
-  } */
-
   .vision {
     margin: 250px 0 350px 0;
   }
-
-  /* .vision__title {
-    margin-bottom: 40px;
-  }
-
-  .vision__wrapper {
-    gap: 30px;
-  }
-
-  .vision__passion,
-  .vision__collaboration,
-  .vision__integrity {
-    gap: 10px;
-  }
-
-  .vision__passion h2,
-  .vision__collaboration h2,
-  .vision__integrity h2 {
-    font-size: 20px;
-  }
-
-  .vision__passion p,
-  .vision__collaboration p,
-  .vision__integrity p {
-    font-size: 18px;
-    max-width: 315px;
-  }
-
-  .vision__passion img {
-    width: 125px;
-    height: 125px;
-  }
-
-  .vision__collaboration img {
-    width: 135px;
-    height: 125px;
-  }
-
-  .vision__integrity img {
-    width: 108px;
-    height: 125px;
-  } */
 
   .customers__title {
     margin-bottom: 50px;
@@ -1969,28 +1864,8 @@
     margin-top: 100px;
   }
 
-  /* .footer__wrapper {
-    gap: 60px;
-  } */
-
-  /* .footer__logo {
-    width: 113px;
-    height: 113px;
-  } */
-
-  /* .footer__contacts {
-    width: 102%;
-  } */
-
   .footer__contacts p,
   .footer__rights p {
     font-size: 18px;
   }
 }
-
-/* @media (max-width: 350px) {
-  .about__text-one,
-  .about__text-two {
-    width: 15rem;
-  }
-} */

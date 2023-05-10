@@ -52,18 +52,20 @@
                     class="header__nav-logo wow animate__animated animate__fadeInDown animate__delay-2s"
                     alt="Futuris logo" width="187" height="33"></a>
             <div class="header__nav-links wow animate__animated animate__fadeInDown animate__delay-2s">
-                <a href="#header" class="header__nav-link">main</a>
-                <a href="#services" class="header__nav-link">services</a>
                 <a href="#about" class="header__nav-link">about us</a>
+                <a href="#services" class="header__nav-link">services</a>
+                <a href="#projects" class="header__nav-link">projects</a>
+                <a href="#contacts" class="header__nav-link">contacts</a>
             </div>
             <div class="burger-icon wow animate__animated animate__fadeInDown animate__delay-2s">
                 <span></span>
                 <span></span>
             </div>
             <ul class="nav-links">
-                <li><a href="#footer" onclick="closeMenu()">main</a></li>
-                <li><a href="#about" onclick="closeMenu()">services</a></li>
                 <li><a href="#about" onclick="closeMenu()">about us</a></li>
+                <li><a href="#services" onclick="closeMenu()">services</a></li>
+                <li><a href="#projects" onclick="closeMenu()">projects</a></li>
+                <li><a href="#contacts" onclick="closeMenu()">contacts</a></li>
             </ul>
         </nav>
         <svg width="310" height="738" viewBox="0 0 310 738" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +103,7 @@
                 by the leading Oil&Gas Companies operating
                 in Central Asia and strives to contribute to the successes of the Clients' projects.</div>
         </section>
-        <section class="vertical__slider-container">
+        <section class="vertical__slider-container" id="services">
             <div class="custom-dots wow animate__animated animate__fadeIn">
                 <button type="button" aria-label="vertical_slider-dot_1" role="none" class="dot dot-1 active"></button>
                 <button type="button" aria-label="vertical_slider-dot_2" role="none" class="dot dot-2"></button>
@@ -471,15 +473,15 @@
                 </picture>
             </div>
         </section>
-        <footer class="footer" id="footer">
+        <footer class="footer" id="contacts">
             <div class="footer__wrapper">
                 <div class="footer__contacts wow animate__animated animate__fadeInLeft">
                     <p> <strong>Address:</strong> UAE: SAIF Office, P8-08-37, PO Box 122788, Sharjah.</p>
                     <p><a href="tel:+971 56 719 69 43"> <strong>Phone:</strong> +971 56 719 69 43 [GMT +4]</a></p>
                     <p><a href="mailto: info@futurisfze.com"> <strong>E-mail:</strong> info@futurisfze.com</a></p>
                 </div>
-                <img class="footer__logo wow animate__animated animate__fadeInRight" src="./img/footer__logo.svg"
-                    alt="Futuris footer logo">
+                <a href="#header"><img class="footer__logo wow animate__animated animate__fadeInRight"
+                        src="./img/footer__logo.svg" alt="Futuris footer logo"></a>
             </div>
             <div class="footer__rights">
                 <p>© Futuris FZE, 2023</p>

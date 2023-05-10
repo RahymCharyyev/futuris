@@ -4,7 +4,6 @@ $(document).ready(function () {
     dots: false,
     infinite: true,
     speed: 500,
-    // adaptiveHeight: true,
     slidesToShow: 4,
     prevArrow: ".project__buttons-prev",
     nextArrow: ".project__buttons-next",
