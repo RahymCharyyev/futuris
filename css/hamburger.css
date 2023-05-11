@@ -2,6 +2,7 @@
   display: none;
   cursor: pointer;
 }
+
 .burger-icon span {
   display: block;
   height: 3px;
@@ -59,6 +60,11 @@
     margin: 20px 0;
   }
 
+  .nav-links li a {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
   .nav-links.show {
     left: 0;
     opacity: 1;
@@ -101,6 +107,11 @@
     margin: 20px 0;
   }
 
+  .nav-links li a {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
   .nav-links.show {
     left: 0;
     opacity: 1;
@@ -116,5 +127,12 @@
 
   .burger-icon.active span:last-child {
     transform: translateY(-9px) rotate(45deg);
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-links li a {
+    font-size: 18px;
+    text-transform: lowercase;
   }
 }

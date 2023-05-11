@@ -111,7 +111,7 @@
   }
 
   .customers__title {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .customers__wrapper {
@@ -240,7 +240,7 @@
 
   .vision__title {
     font-size: 32px;
-    margin-bottom: 8rem;
+    padding-bottom: 8rem;
   }
 
   .vision__passion h2,
@@ -273,7 +273,7 @@
 
   .customers__title {
     font-size: 32px;
-    margin-bottom: 115px;
+    padding-bottom: 115px;
   }
 
   .customers__wrapper {
@@ -347,6 +347,28 @@
 
   .footer__rights {
     margin: 90px 0 20px 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project__buttons-prev:hover,
+  .project__buttons-next:hover {
+    fill: none;
+  }
+
+  .project__buttons-next:hover path,
+  .project__buttons-prev:hover path {
+    stroke: black;
+  }
+
+  .project__buttons-prev:active,
+  .project__buttons-next:active {
+    fill: black;
+  }
+
+  .project__buttons-next:active path,
+  .project__buttons-prev:active path {
+    stroke: white;
   }
 }
 
@@ -504,7 +526,7 @@
   }
 
   .vision__title {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
   }
 
   .vision__wrapper {
@@ -552,7 +574,7 @@
   }
 
   .customers__title {
-    margin-bottom: 125px;
+    padding-bottom: 125px;
   }
 
   .customers__wrapper {
@@ -766,7 +788,7 @@
 
   .vision__title {
     font-size: 32px;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
   }
 
   .vision__passion,
@@ -792,7 +814,7 @@
 
   .customers__title {
     font-size: 32px;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
   }
 
   .customers__wrapper {
@@ -1031,6 +1053,26 @@
     height: 40px;
   }
 
+  #button3:hover,
+  #button4:hover {
+    fill: none;
+  }
+
+  #button3:hover path,
+  #button4:hover path {
+    stroke: black;
+  }
+
+  #button3:active,
+  #button4:active {
+    fill: black;
+  }
+
+  #button3:active path,
+  #button4:active path {
+    stroke: white;
+  }
+
   .vision {
     height: 100vh;
     margin: 40px 0 85px 0;
@@ -1038,7 +1080,7 @@
 
   .vision__title {
     font-size: 24px;
-    margin-bottom: 55px;
+    padding-bottom: 55px;
   }
 
   .vision__passion img {
@@ -1086,7 +1128,6 @@
 
   .customers__title {
     font-size: 24px;
-    margin: 0;
     padding: 0 0 55px 0;
   }
 
@@ -1269,7 +1310,7 @@
 
   .vision__title {
     font-size: 30px;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
   }
 
   .vision__passion,
@@ -1307,7 +1348,7 @@
 
   .customers__title {
     font-size: 30px;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
   }
 
   .customers__wrapper {
@@ -1478,7 +1519,7 @@
 
   .vision__title {
     font-size: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   .vision__passion img {
@@ -1522,8 +1563,7 @@
 
   .customers__title {
     font-size: 20px;
-    margin: 0 0 50px 0;
-    padding: 0;
+    padding-bottom: 50px;
   }
 
   #tmgaz,
@@ -1756,7 +1796,7 @@
   }
 
   .vision__title {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   .vision__wrapper {
@@ -1799,7 +1839,7 @@
 
   .customers__title {
     font-size: 32px;
-    margin-bottom: 95px;
+    padding-bottom: 95px;
   }
 
   .footer {
@@ -1857,7 +1897,7 @@
   }
 
   .customers__title {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 
   .footer {

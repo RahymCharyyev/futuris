@@ -9,18 +9,10 @@ $(document).ready(function () {
     nextArrow: ".project__buttons-next",
     responsive: [
       {
-        breakpoint: 1600,
+        breakpoint: 1520,
         settings: {
           arrows: false,
           slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 980,
-        settings: {
-          arrows: false,
-          slidesToShow: 3,
-          adaptiveHeight: true,
         },
       },
       {
@@ -31,19 +23,10 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          slidesToShow: 2,
-        },
-      },
-
-      {
         breakpoint: 460,
         settings: {
           arrows: false,
           slidesToShow: 1,
-          adaptiveHeight: false,
         },
       },
     ],
