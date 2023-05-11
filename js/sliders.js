@@ -5,28 +5,44 @@ $(document).ready(function () {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
+    slidesToScroll: 1,
     prevArrow: ".project__buttons-prev",
     nextArrow: ".project__buttons-next",
+
     responsive: [
       {
-        breakpoint: 1520,
+        breakpoint: 1600,
         settings: {
-          arrows: false,
           slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 850,
         settings: {
-          arrows: false,
           slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 460,
+        breakpoint: 768,
         settings: {
-          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
