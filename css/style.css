@@ -69,6 +69,16 @@ body {
   margin: 0 9%;
 }
 
+.header,
+.about,
+.vertical__slider-container,
+.projects,
+.vision,
+.customers,
+.footer {
+  max-width: 1560px;
+}
+
 /* HEADER */
 .header {
   height: 100vh;
@@ -76,8 +86,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-bottom: 175px; */
-  max-width: 1520px;
   margin: 0 auto 175px auto;
 }
 
@@ -138,7 +146,6 @@ body {
   background-position: 70% 50%;
   background-repeat: no-repeat;
   background-size: 70%;
-  max-width: 1520px;
   margin: 0 auto 150px auto;
 }
 
@@ -161,7 +168,6 @@ body {
 
 .vertical__slider-container {
   position: relative;
-  max-width: 1520px;
   margin: 0 auto 150px auto;
 }
 
@@ -266,7 +272,6 @@ body {
 .projects {
   height: 100vh;
   height: 100svh;
-  max-width: 1560px;
   margin: 0 auto;
 }
 
@@ -324,13 +329,13 @@ p {
   transition: 0.3s;
 }
 
-.project__buttons-next:hover,
-.project__buttons-prev:hover {
+.project__buttons-next svg:hover,
+.project__buttons-prev svg:hover {
   fill: black;
 }
 
-.project__buttons-next:hover path,
-.project__buttons-prev:hover path {
+.project__buttons-next svg:hover path,
+.project__buttons-prev svg:hover path {
   stroke: white;
 }
 
@@ -341,7 +346,6 @@ p {
 .vision {
   height: 100vh;
   height: 100svh;
-  max-width: 1520px;
   margin: 250px auto 0 auto;
 }
 
@@ -353,7 +357,6 @@ p {
 }
 
 .vision__wrapper {
-  max-width: 1512px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -403,7 +406,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1520px;
   margin: 150px auto 0 auto;
 }
 
@@ -433,7 +435,6 @@ p {
 }
 
 .footer {
-  max-width: 1520px;
   margin: 0 auto;
   margin-top: 200px;
 }

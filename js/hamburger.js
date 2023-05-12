@@ -1,12 +1,12 @@
 let navLinks;
-let burgerIcon = document.querySelector(".burger-icon");
+let burgerIcon = document.querySelector("#menu");
 
 document.addEventListener("DOMContentLoaded", function () {
   navLinks = document.querySelector(".nav-links");
 
   function toggleMenu() {
     navLinks.classList.toggle("show");
-    burgerIcon.classList.toggle("active");
+    burgerIcon.classList.toggle("open");
   }
 
   burgerIcon.addEventListener("click", toggleMenu);
@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function closeMenu() {
   navLinks.classList.remove("show");
-  burgerIcon.classList.remove("active");
+  burgerIcon.classList.remove("open");
 }

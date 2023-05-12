@@ -51,14 +51,14 @@
             <a aria-label="Header logo" href="#header" class="header__nav-link"><img src="./img/header_logo.svg"
                     class="header__nav-logo" alt="Futuris logo" width="187" height="33"></a>
             <div class="header__nav-links">
-                <a href="#about" class="header__nav-link">about us</a>
-                <a href="#services" class="header__nav-link">services</a>
-                <a href="#projects" class="header__nav-link">projects</a>
-                <a href="#contacts" class="header__nav-link">contacts</a>
+                <a href="#about" class="header__nav-link">About us</a>
+                <a href="#services" class="header__nav-link">Services</a>
+                <a href="#projects" class="header__nav-link">Projects</a>
+                <a href="#contacts" class="header__nav-link">Contacts</a>
             </div>
-            <div class="burger-icon" data-aos="fade-down" data-aos-delay="2000">
-                <span></span>
-                <span></span>
+            <div id="menu" title="menu icon" data-aos="fade-down" data-aos-delay="2000">
+                <span class="line1"></span>
+                <span class="line2"></span>
             </div>
             <ul class="nav-links">
                 <li><a href="#about" onclick="closeMenu()">About us</a></li>
@@ -270,18 +270,20 @@
                 </div>
             </div>
             <div class="project__buttons" data-aos="fade-left">
-                <svg id="button1" class="project__buttons-prev" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="25" r="24.5" stroke="black" />
-                    <path d="M29 34L20 25L29 16" stroke="black" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-                <svg id="button2" class="project__buttons-next" width="50" height="50" viewBox="0 0 50 50" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="25" r="24.5" stroke="black" />
-                    <path d="M21 34L30 25L21 16" stroke="black" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
+                <button id="button1" class="project__buttons-prev">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="24.5" stroke="black" />
+                        <path d="M29 34L20 25L29 16" stroke="black" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="button2" class="project__buttons-next">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="24.5" stroke="black" />
+                        <path d="M21 34L30 25L21 16" stroke="black" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
             </div>
         </section>
         <section class="projects__mobile">

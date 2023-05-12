@@ -351,34 +351,43 @@
 }
 
 @media (max-width: 1280px) {
-  .project__buttons-prev:hover,
-  .project__buttons-next:hover {
+  .project__buttons-prev svg,
+  .project__buttons-next svg {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .project__buttons-prev svg:hover,
+  .project__buttons-next svg:hover {
     fill: none;
   }
 
-  .project__buttons-next:hover path,
-  .project__buttons-prev:hover path {
+  .project__buttons-next svg:hover path,
+  .project__buttons-prev svg:hover path {
     stroke: black;
   }
 
-  .project__buttons-prev:active,
-  .project__buttons-next:active {
+  .project__buttons-prev svg:active,
+  .project__buttons-next svg:active {
     fill: black;
   }
 
-  .project__buttons-next:active path,
-  .project__buttons-prev:active path {
+  .project__buttons-next svg:active path,
+  .project__buttons-prev svg:active path {
     stroke: white;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .header__nav {
     height: 6rem;
   }
 
   .header__texts {
     padding: 25px 0 40px 0;
+  }
+
+  .header__nav-links {
+    display: none;
   }
 
   .about {
