@@ -6,35 +6,27 @@ let pathElement = button1.querySelector("path");
 let pathElement2 = button2.querySelector("path");
 let pathElement3 = button3.querySelector("path");
 let pathElement4 = button4.querySelector("path");
-button1.addEventListener("click", function () {
-  button1.style.fill = "black";
-  pathElement.setAttribute("stroke", "white");
-  setTimeout(function () {
-    button1.style.fill = "none";
+
+function handleButton(button, pathElement) {
+  button.addEventListener("click", function () {
+    button.style.fill = "black";
+    pathElement.setAttribute("stroke", "white");
+    setTimeout(function () {
+      button.style.fill = "none";
+      pathElement.setAttribute("stroke", "black");
+    }, 100);
+  });
+  button.addEventListener("mouseenter", function () {
+    button.style.fill = "black";
+    pathElement.setAttribute("stroke", "white");
+  });
+  button.addEventListener("mouseleave", function () {
+    button.style.fill = "none";
     pathElement.setAttribute("stroke", "black");
-  }, 100);
-});
-button2.addEventListener("click", function () {
-  button2.style.fill = "black";
-  pathElement2.setAttribute("stroke", "white");
-  setTimeout(function () {
-    button2.style.fill = "none";
-    pathElement2.setAttribute("stroke", "black");
-  }, 100);
-});
-button3.addEventListener("click", function () {
-  button3.style.fill = "black";
-  pathElement3.setAttribute("stroke", "white");
-  setTimeout(function () {
-    button3.style.fill = "none";
-    pathElement3.setAttribute("stroke", "black");
-  }, 100);
-});
-button4.addEventListener("click", function () {
-  button4.style.fill = "black";
-  pathElement4.setAttribute("stroke", "white");
-  setTimeout(function () {
-    button4.style.fill = "none";
-    pathElement4.setAttribute("stroke", "black");
-  }, 100);
-});
+  });
+}
+
+handleButton(button1, pathElement);
+handleButton(button2, pathElement2);
+handleButton(button3, pathElement3);
+handleButton(button4, pathElement4);

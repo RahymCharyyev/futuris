@@ -6,8 +6,8 @@ $(document).ready(function () {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: ".project__buttons-prev",
-    nextArrow: ".project__buttons-next",
+    prevArrow: "#button1",
+    nextArrow: "#button2",
 
     responsive: [
       {
