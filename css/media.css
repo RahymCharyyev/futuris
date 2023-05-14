@@ -350,7 +350,7 @@
   }
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .project__buttons-prev svg,
   .project__buttons-next svg {
     -webkit-tap-highlight-color: transparent;
@@ -375,7 +375,7 @@
   .project__buttons-prev svg:active path {
     stroke: white;
   }
-}
+} */
 
 @media (max-width: 1280px) {
   .header__nav {

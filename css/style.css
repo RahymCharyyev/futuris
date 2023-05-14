@@ -329,7 +329,7 @@ p {
   transition: 0.3s;
 }
 
-.project__buttons-next svg:hover,
+/* .project__buttons-next svg:hover,
 .project__buttons-prev svg:hover {
   fill: black;
 }
@@ -337,7 +337,7 @@ p {
 .project__buttons-next svg:hover path,
 .project__buttons-prev svg:hover path {
   stroke: white;
-}
+} */
 
 .projects__mobile {
   display: none;
