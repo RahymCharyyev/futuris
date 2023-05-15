@@ -350,33 +350,6 @@
   }
 }
 
-/* @media (max-width: 1280px) {
-  .project__buttons-prev svg,
-  .project__buttons-next svg {
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .project__buttons-prev svg:hover,
-  .project__buttons-next svg:hover {
-    fill: none;
-  }
-
-  .project__buttons-next svg:hover path,
-  .project__buttons-prev svg:hover path {
-    stroke: black;
-  }
-
-  .project__buttons-prev svg:active,
-  .project__buttons-next svg:active {
-    fill: black;
-  }
-
-  .project__buttons-next svg:active path,
-  .project__buttons-prev svg:active path {
-    stroke: white;
-  }
-} */
-
 @media (max-width: 1280px) {
   .header__nav {
     height: 6rem;

@@ -108,7 +108,7 @@ body {
 }
 
 .header__nav-link:hover {
-  font-weight: var(--medium);
+  text-shadow: 1px 0 black;
   transition: 0.3s ease-in;
 }
 
@@ -329,16 +329,6 @@ p {
   transition: 0.3s;
 }
 
-/* .project__buttons-next svg:hover,
-.project__buttons-prev svg:hover {
-  fill: black;
-}
-
-.project__buttons-next svg:hover path,
-.project__buttons-prev svg:hover path {
-  stroke: white;
-} */
-
 .projects__mobile {
   display: none;
 }
@@ -406,7 +396,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px auto 0 auto;
+  margin: 0 auto;
 }
 
 .customers__title {
