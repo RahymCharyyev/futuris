@@ -83,6 +83,9 @@ $(document).ready(function () {
       $(".custom-dots-horizontal .dot-" + (nextSlide + 1)).addClass("active");
     }
   );
+  $("#services__link").click(function () {
+    $(".vertical__slider").slick("slickGoTo", 2);
+  });
 });
 
 $(document).ready(function () {

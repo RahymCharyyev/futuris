@@ -105,11 +105,24 @@ body {
 .header__nav-link {
   font-size: 24px;
   transition: 0.3s ease-in;
+  position: relative;
 }
 
-.header__nav-link:hover {
-  text-shadow: 1px 0 black;
+.header__nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: transparent;
   transition: 0.3s ease-in;
+}
+
+.header__nav-link:hover::after {
+  background-color: black;
 }
 
 .header__img {
