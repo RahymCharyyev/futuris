@@ -1,3 +1,11 @@
+@media (min-width: 1921px) {
+  .vision {
+    height: 80vh;
+    height: 80svh;
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 1655px) {
   .header__nav-logo {
     width: 162px;
