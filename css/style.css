@@ -426,13 +426,14 @@ p {
   row-gap: 6rem;
 }
 
-.customers__wrapper picture:not(#schlumberger):not(#kawasaki) {
+.customers__wrapper picture:not(#schlumberger):not(#kawasaki):not(#socar) {
   align-self: flex-end;
   justify-self: center;
 }
 
 #schlumberger,
-#kawasaki {
+#kawasaki,
+#socar {
   justify-self: center;
   align-self: center;
 }
