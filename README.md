@@ -56,10 +56,6 @@ The following tools were used in this project:
 - [Slick](https://kenwheeler.github.io/slick/)
 - [Animate on Scroll](https://michalsnik.github.io/aos/)
 
-## :white_check_mark: Requirements
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
 ## :memo: Screenshots
 
 ![Alt text](1.png) \
